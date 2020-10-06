@@ -20,7 +20,7 @@
 
 [core]
     editor = vim
-	autocrlf = true
+	#autocrlf = true
     # autocrlf = false
     # whitespace = cr-at-eol
 
