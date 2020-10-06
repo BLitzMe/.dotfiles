@@ -14,6 +14,14 @@ if has("gui_win32")
 endif
 
 
+" show end of line, see: https://stackoverflow.com/questions/3860519/see-line-breaks-and-carriage-returns-in-editor
+set ffs=unix
+set encoding=utf-8
+set fileencoding=utf-8
+"set listchars=eol:¶
+"set list
+
+
 " setup solarived8 color scheme
 :packadd solarized8
 set background=dark
